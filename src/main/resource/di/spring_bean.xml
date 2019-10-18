@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="knight" class="com.xml.org.inte.impl.BraveKnight">
+        <constructor-arg ref="quest"/>
+    </bean>
+    <bean id="quest" class="com.xml.org.inte.impl.SlayDragonQuest">
+        <constructor-arg value="#{T(System).out}"/>
+    </bean>
+    <bean id="redisSetNx" class="com.org.redis.data.RedisSetNx">
+        <property name="redisTemplate" ref="redisTemplatex"/>
+    </bean>
+    <bean id="redisTemplatex" class="org.springframework.data.redis.core.RedisTemplate"/>
+</beans>
