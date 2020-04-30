@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="panda-spring" />
+        <module name="spring-ana" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="panda-spring" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="panda-spring" target="8" />
+      <module name="spring-ana" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

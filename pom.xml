@@ -6,7 +6,11 @@
 
     <groupId>com.org</groupId>
     <artifactId>wa.hj</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring-ana</module>
+    </modules>
     <properties>
         <junit-version>4.12</junit-version>
         <spring-version>5.1.1.RELEASE</spring-version>

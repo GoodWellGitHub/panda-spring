@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/panda-spring.iml" filepath="$PROJECT_DIR$/panda-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ana/spring-ana.iml" filepath="$PROJECT_DIR$/spring-ana/spring-ana.iml" />
     </modules>
   </component>
 </project>
