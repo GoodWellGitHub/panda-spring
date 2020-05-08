@@ -20,29 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb445746-3155-44d2-aa1d-bf47553dfad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ana/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ana/spring-ana.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ana/src/main/java/com/org/panda/spring/scanner/MyComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ana/src/main/java/com/org/panda/spring/scanner/ScannerTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ana/src/main/java/com/org/panda/spring/service/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ana/src/main/java/com/org/panda/spring/service/TestService01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ana/src/main/java/com/org/panda/spring/service/TestService02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ana/src/main/java/com/org/panda/spring/service/TestService03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ana/src/test/java/com/org/panda/spring/service/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ana/src/test/java/com/org/panda/spring/service/MainDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ana/src/main/java/com/org/panda/spring/cglib/CglibCallBackInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ana/src/main/java/com/org/panda/spring/cglib/CglibDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ana/src/main/java/com/org/panda/spring/cglib/TargetAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/panda-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/panda-spring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ana/spring-ana.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ana/spring-ana.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +68,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CglibDemo">
+    <configuration name="CglibDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.panda.spring.cglib.CglibDemo" />
+      <module name="spring-ana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.org.panda.spring.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.org.panda.spring.service.Main" />
       <module name="spring-ana" />
@@ -132,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CglibDemo" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MainDemo.classPathBeanDefinitionScannerTest" />
         <item itemvalue="JUnit.MainDemo.test2" />
@@ -151,7 +149,11 @@
       <workItem from="1544370275408" duration="612000" />
       <workItem from="1544408857922" duration="86000" />
       <workItem from="1546873099446" duration="468000" />
-      <workItem from="1588219186593" duration="8157000" />
+      <workItem from="1588219186593" duration="9373000" />
+      <workItem from="1588248412797" duration="8661000" />
+      <workItem from="1588345099857" duration="361000" />
+      <workItem from="1588379230278" duration="8650000" />
+      <workItem from="1588758599723" duration="1096000" />
     </task>
     <servers />
   </component>
@@ -168,39 +170,59 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="306" key="GridCell.Tab.0.bottom" timestamp="1588232626032">
-      <screen x="1440" y="0" width="1680" height="1050" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1588651732291">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1638" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588232134031" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1588651732291" />
+    <state width="1398" height="254" key="GridCell.Tab.0.bottom" timestamp="1588728032940">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1680.1050@0.0.1440.900" timestamp="1588728032940" />
+    <state width="1638" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588237571451" />
+    <state width="1638" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588247996519" />
     <state width="1638" height="306" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588232626032" />
-    <state width="1638" height="306" key="GridCell.Tab.0.center" timestamp="1588232626031">
-      <screen x="1440" y="0" width="1680" height="1050" />
+    <state width="1398" height="254" key="GridCell.Tab.0.center" timestamp="1588728032939">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1638" height="306" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588232134030" />
+    <state width="1398" height="254" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1680.1050@0.0.1440.900" timestamp="1588728032939" />
+    <state width="1638" height="306" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588237571449" />
+    <state width="1638" height="306" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588247996516" />
     <state width="1638" height="306" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588232626031" />
-    <state width="1638" height="306" key="GridCell.Tab.0.left" timestamp="1588232626030">
-      <screen x="1440" y="0" width="1680" height="1050" />
+    <state width="1398" height="254" key="GridCell.Tab.0.left" timestamp="1588728032938">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1638" height="306" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588232134029" />
+    <state width="1398" height="254" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1680.1050@0.0.1440.900" timestamp="1588728032938" />
+    <state width="1638" height="306" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588237571448" />
+    <state width="1638" height="306" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588247996503" />
     <state width="1638" height="306" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588232626030" />
-    <state width="1638" height="306" key="GridCell.Tab.0.right" timestamp="1588232626032">
-      <screen x="1440" y="0" width="1680" height="1050" />
+    <state width="1398" height="254" key="GridCell.Tab.0.right" timestamp="1588728032939">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1638" height="306" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588232134030" />
+    <state width="1398" height="254" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1680.1050@0.0.1440.900" timestamp="1588728032939" />
+    <state width="1638" height="306" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588237571450" />
+    <state width="1638" height="306" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588247996518" />
     <state width="1638" height="306" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588232626032" />
-    <state x="1789" y="164" key="SettingsEditor" timestamp="1588219901203">
-      <screen x="1440" y="0" width="1680" height="1050" />
+    <state x="299" y="63" key="SettingsEditor" timestamp="1588652312938">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="1789" y="164" key="SettingsEditor/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588219901203" />
+    <state x="299" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588652312938" />
+    <state x="421" y="46" width="598" height="807" key="find.popup" timestamp="1588326499282">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="46" width="598" height="807" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588326499282" />
     <state x="1703" y="147" key="new project wizard" timestamp="1588219305501">
       <screen x="1440" y="0" width="1680" height="1050" />
     </state>
     <state x="1703" y="147" key="new project wizard/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588219305501" />
-    <state x="1945" y="233" key="search.everywhere.popup" timestamp="1588231642376">
-      <screen x="1440" y="0" width="1680" height="1050" />
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup" timestamp="1588651873073">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="1945" y="233" key="search.everywhere.popup/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588231642376" />
+    <state x="1945" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1680.1050@1440.0.1680.1050" timestamp="1588239819638" />
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588651873073" />
+    <state x="433" y="200" width="670" height="580" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1588604820458" />
   </component>
 </project>
